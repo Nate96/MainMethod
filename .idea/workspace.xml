@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="671d2829-c94b-4678-b893-046364aa419a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MainMethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainMethod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainMethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainMethod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainMethodTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/mainMethodTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,19 +13,21 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/MainMethod$mainMethod.coverage" NAME="mainMethod Coverage Results" MODIFIED="1532457983336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MainMethod$Unittests_for_mainMethodTest_TestMainMethod_test_check_operation.coverage" NAME="Unittests for mainMethodTest.TestMainMethod.test_check_operation Coverage Results" MODIFIED="1532458569182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MainMethod$mainMethod.coverage" NAME="mainMethod Coverage Results" MODIFIED="1532458670777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MainMethod$Unittests_for_mainMethodTest_TestMainMethod_test_is_higher_than_ten_.coverage" NAME="Unittests for mainMethodTest.TestMainMethod.test_is_higher_than_ten_ Coverage Results" MODIFIED="1532102956383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MainMethod$Unittests_for_mainMethodTest_TestMainMethod_test_subtract.coverage" NAME="Unittests for mainMethodTest.TestMainMethod.test_subtract Coverage Results" MODIFIED="1532458208452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MainMethod$Unittests_for_mainMethodTest_TestMainMethod_test_add.coverage" NAME="Unittests for mainMethodTest.TestMainMethod.test_add Coverage Results" MODIFIED="1532102733943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44907856">
+    <splitter split-orientation="horizontal" split-proportion="0.49905303">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="mainMethod.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mainMethod.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="140">
-                  <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+                <state relative-caret-position="75">
+                  <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -37,8 +39,8 @@
           <file leaf-file-name="mainMethodTest.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mainMethodTest.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" selection-start-line="20" selection-end-line="20" />
+                <state relative-caret-position="240">
+                  <caret line="16" selection-start-line="16" selection-end-line="17" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -183,6 +185,20 @@
       <option name="_new_target" value="&quot;mainMethodTest.TestMainMethod.test_add&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests for mainMethodTest.TestMainMethod.test_check_operation" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="MainMethod" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mainMethodTest.TestMainMethod.test_check_operation&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="Unittests for mainMethodTest.TestMainMethod.test_is_higher_than_ten_" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MainMethod" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,15 +213,33 @@
       <option name="_new_target" value="&quot;mainMethodTest.TestMainMethod.test_is_higher_than_ten_&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
+    <configuration name="Unittests for mainMethodTest.TestMainMethod.test_subtract" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="MainMethod" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mainMethodTest.TestMainMethod.test_subtract&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <list>
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python tests.Unittests for mainMethodTest.TestMainMethod.test_add" />
       <item itemvalue="Python tests.Unittests for mainMethodTest.TestMainMethod.test_is_higher_than_ten_" />
       <item itemvalue="Python.mainMethod" />
+      <item itemvalue="Python tests.Unittests for mainMethodTest.TestMainMethod.test_subtract" />
+      <item itemvalue="Python tests.Unittests for mainMethodTest.TestMainMethod.test_check_operation" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.mainMethod" />
+        <item itemvalue="Python tests.Unittests for mainMethodTest.TestMainMethod.test_check_operation" />
+        <item itemvalue="Python tests.Unittests for mainMethodTest.TestMainMethod.test_subtract" />
         <item itemvalue="Python tests.Unittests for mainMethodTest.TestMainMethod.test_is_higher_than_ten_" />
         <item itemvalue="Python tests.Unittests for mainMethodTest.TestMainMethod.test_add" />
       </list>
@@ -222,15 +256,17 @@
       <option name="presentableId" value="Default" />
       <updated>1532099019096</updated>
     </task>
+    <task id="LOCAL-00001" summary="Completed the first build of the program. Going to refactor">
+      <created>1532458041455</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1532458041455</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_mainMethodTest_TestMainMethod_test_add - 2018.07.20 at 10h 57m 19s.xml">
-      <configuration name="Unittests for mainMethodTest.TestMainMethod.test_add" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_mainMethodTest_TestMainMethod_test_add - 2018.07.20 at 10h 58m 07s.xml">
-      <configuration name="Unittests for mainMethodTest.TestMainMethod.test_add" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_mainMethodTest_TestMainMethod_test_add - 2018.07.20 at 11h 02m 46s.xml">
       <configuration name="Unittests for mainMethodTest.TestMainMethod.test_add" configurationId="tests" />
     </history-entry>
@@ -254,6 +290,12 @@
     </history-entry>
     <history-entry file="Unittests_for_mainMethodTest_TestMainMethod_test_is_higher_than_ten_ - 2018.07.20 at 11h 09m 16s.xml">
       <configuration name="Unittests for mainMethodTest.TestMainMethod.test_is_higher_than_ten_" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_mainMethodTest_TestMainMethod_test_subtract - 2018.07.24 at 13h 50m 08s.xml">
+      <configuration name="Unittests for mainMethodTest.TestMainMethod.test_subtract" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_mainMethodTest_TestMainMethod_test_check_operation - 2018.07.24 at 13h 56m 09s.xml">
+      <configuration name="Unittests for mainMethodTest.TestMainMethod.test_check_operation" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -288,6 +330,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Completed the first build of the program. Going to refactor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed the first build of the program. Going to refactor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -328,8 +374,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainMethodTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="17" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -338,8 +384,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainMethod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+        <state relative-caret-position="75">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
         </state>
       </provider>
     </entry>
