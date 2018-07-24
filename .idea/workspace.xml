@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="671d2829-c94b-4678-b893-046364aa419a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MainMethod.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mainMethodTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainMethod.py" beforeDir="false" afterPath="$PROJECT_DIR$/MainMethod.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,18 +13,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MainMethod$mainMethod.coverage" NAME="mainMethod Coverage Results" MODIFIED="1532457983336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MainMethod$Unittests_for_mainMethodTest_TestMainMethod_test_is_higher_than_ten_.coverage" NAME="Unittests for mainMethodTest.TestMainMethod.test_is_higher_than_ten_ Coverage Results" MODIFIED="1532102956383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MainMethod$Unittests_for_mainMethodTest_TestMainMethod_test_add.coverage" NAME="Unittests for mainMethodTest.TestMainMethod.test_add Coverage Results" MODIFIED="1532102733943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.3058049">
+    <splitter split-orientation="horizontal" split-proportion="0.44907856">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="mainMethod.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mainMethod.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+                <state relative-caret-position="140">
+                  <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -33,12 +33,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="mainMethodTest.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/mainMethodTest.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="300">
-                  <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+                  <caret line="20" selection-start-line="20" selection-end-line="20" />
                   <folding>
                     <element signature="e#0#15#0" expanded="true" />
                   </folding>
@@ -49,8 +49,8 @@
           <file leaf-file-name="case.py" pinned="false" current-in-tab="false">
             <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="9329">
-                  <caret line="679" column="17" lean-forward="true" selection-start-line="679" selection-start-column="17" selection-end-line="679" selection-end-column="17" />
+                <state relative-caret-position="9990">
+                  <caret line="679" column="17" selection-start-line="679" selection-start-column="17" selection-end-line="679" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -73,8 +73,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/MainMethod.py" />
-        <option value="$PROJECT_DIR$/mainMethod.py" />
         <option value="$PROJECT_DIR$/mainMethodTest.py" />
+        <option value="$PROJECT_DIR$/mainMethod.py" />
       </list>
     </option>
   </component>
@@ -130,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for mainMethodTest.TestMainMethod.test_is_higher_than_ten_">
+  <component name="RunManager" selected="Python.mainMethod">
     <configuration name="Unnamed" type="PythonConfigurationType" factoryName="Python">
       <module name="MainMethod" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -145,6 +145,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MainMethod.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="mainMethod" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MainMethod" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mainMethod.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,9 +201,11 @@
       <item itemvalue="Python.Unnamed" />
       <item itemvalue="Python tests.Unittests for mainMethodTest.TestMainMethod.test_add" />
       <item itemvalue="Python tests.Unittests for mainMethodTest.TestMainMethod.test_is_higher_than_ten_" />
+      <item itemvalue="Python.mainMethod" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.mainMethod" />
         <item itemvalue="Python tests.Unittests for mainMethodTest.TestMainMethod.test_is_higher_than_ten_" />
         <item itemvalue="Python tests.Unittests for mainMethodTest.TestMainMethod.test_add" />
       </list>
@@ -242,17 +263,17 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46022728" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2940341" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19453125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.175" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -274,13 +295,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9329">
-          <caret line="679" column="17" lean-forward="true" selection-start-line="679" selection-start-column="17" selection-end-line="679" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mainMethod.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -290,11 +304,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mainMethodTest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="285">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10185">
+          <caret line="679" column="17" lean-forward="true" selection-start-line="679" selection-start-column="17" selection-end-line="679" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9990">
+          <caret line="679" column="17" selection-start-line="679" selection-start-column="17" selection-end-line="679" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainMethodTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mainMethod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
